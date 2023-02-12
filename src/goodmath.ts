@@ -5,4 +5,8 @@ export class GoodMath {
     add(): number {
         return this.number1 + this.number2;
     }
+
+    subtract(): number {
+        return this.number1 - this.number2;
+    }
 }
