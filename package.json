@@ -5,7 +5,8 @@
   "main": "name.js",
   "scripts": {
     "build": "tsc",
-    "test": "node ./build/name.js",
+    "start": "node ./build/name.js",
+    "test": "npx jasmine",
     "clean": "node ./tools/clean.js"
   },
   "repository": {
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/dudasaus/dudas-brother-testing#readme",
   "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "jasmine": "^4.5.0",
     "typescript": "^4.9.5"
-  },
-  "type": "module"
+  }
 }
