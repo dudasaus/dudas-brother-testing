@@ -4,8 +4,9 @@
   "description": "",
   "main": "name.js",
   "scripts": {
-    "build": "tsc ./name.ts",
-    "test": "node ./name.js"
+    "build": "tsc",
+    "test": "node ./build/name.js",
+    "clean": "Remove-Item ./src/*"
   },
   "repository": {
     "type": "git",
