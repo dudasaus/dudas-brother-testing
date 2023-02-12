@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "node ./build/name.js",
-    "clean": "Remove-Item ./src/*"
+    "clean": "node ./tools/clean.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,6 @@
   "homepage": "https://github.com/dudasaus/dudas-brother-testing#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
-  }
+  },
+  "type": "module"
 }
