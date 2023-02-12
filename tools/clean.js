@@ -1,6 +1,5 @@
-const fs = require('node:fs/promises');
+import { rm } from 'node:fs/promises';
 
 console.log('Starting clean...');
-fs.rm('./build', { recursive: true }).then(() => {
-    console.log('Build cleaned.');
-});
+await rm('./build', { recursive: true });
+console.log('Build cleaned.');
