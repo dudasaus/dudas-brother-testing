@@ -1,0 +1,23 @@
+{
+  "name": "dudas-brother-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "name.js",
+  "scripts": {
+    "build": "tsc ./name.ts",
+    "test": "node ./name.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudasaus/dudas-brother-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudasaus/dudas-brother-testing/issues"
+  },
+  "homepage": "https://github.com/dudasaus/dudas-brother-testing#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
