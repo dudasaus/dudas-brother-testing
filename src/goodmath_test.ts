@@ -1,4 +1,4 @@
-import 'jasmine';
+import 'jest';
 import { GoodMath } from './goodmath';
 
 describe('goodmath', () => {
